@@ -1,75 +1,64 @@
-    <!DOCTYPE html>
-    <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale">
-    <link rel="stylesheet" href="./style.css"/>
-    </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale">
+  <link rel="stylesheet" href="./style.css" />
+</head>
 
-    <body> 
-      <h1>Modelo de caja</h1>  
+<body>
+  <h1>Modelo de caja</h1>
 
-      <div class="box1">ll</div>
+  <div class="box1">ll</div>
 
-      <span class="box2">ll</span>
+  <span class="box2">ll</span>
 
-      <span class="box3">ll</span>
+  <span class="box3">ll</span>
 
-          <div class="relative">
-            <h2>Relative</h2>
-            <p>
-            Para que un elemento secundario tenga una posición absoluta, el
-            elemento
-            principal debe estar relativamente posicionado.
-            </p>
-              <div class="absolute">
-              <h2>Absolute</h2>
-                  <p>
-                  Un elemento absolutamente posicionado se posiciona en relación
-                  con su
-                  contenedor principal.
-                  </p>
-              </div>
+  <div class="relative">
+    <h2>Relative</h2>
+    <p>
+      In order for a secondary element to have an absolute position, the element must be relatively positioned.
+    </p>
+    <div class="absolute">
+      <h2>Absolute</h2>
+      <p>
+        An absolutely positioned element is positioned in relation to its to its main container.
+      </p>
+    </div>
 
-              <div class = "sticky">
-                <p>I will not move until my container finised.</p>
-              </div>
-              <div>
-              <p>
-              a lon tex to print  to can do scroll
-              a lon tex to print  to can do scroll
-              a lon tex to print  to can do scroll
-              a lon tex to print  to can do scroll
-              a lon tex to print  to can do scroll
-              a lon tex to print  to can do scroll
-              a lon tex to print  to can do scroll
-              a lon tex to print  to can do scroll</p>
-              </div>
-          </div>
+    <div class="sticky">
+      <p>I will not move until my container finised.</p>
+    </div>
 
-          <div class="static">
-            <h2>Other element</h2>
-            <p>this has a static posicion, it is by defaul</p>
-            <p>this has a static posicion, it is by defaul
-            has a static posicion, it is by defaul</p>
+      <p>
+    some text inside the relative div object.<br>
+     to can do scroll.<br>
+    and text how the sticky property works.<br>
+    when we do scroll the sticky text doesn't move<br>
+    and like the fixed tex has a lower z-index<br>
+    it pass down the sticky text but over the absolute one that doesn't have any defined z-index.<br>
+      </p>
 
+  </div>
 
-          </div>
+  <div class="static">
+    <h2>Other element</h2>
+    <p>this has a static posicion, it is by defaul</p>
+  </div>
 
-          <div class="fixed">
-            <h2>Fixed</h2>
-            <p>Este elemento usa una posición fija.</p>
-            <p>
-            Se coloca en relación con la ventana del navegador, por lo que
-            siempre permanece en el mismo lugar. Como la posición relativa, también
-            utiliza las propiedades top, bottom, left y right para especificar su
-            ubicación.
-            </p>
-            08-guia-posicionamiento.md 6/2/2023
-            </div>
+  <div class="fixed">
+    <h2>Fixed</h2>
+    <p>
+      It is positioned relative to the browser window,
+      so it always stays in the same place. Like relative position,
+      it also uses the top, bottom, left and right properties to specify its location.
+    </p>
 
-    </body>
+  </div>
 
-    </html>
+</body>
+
+</html>
