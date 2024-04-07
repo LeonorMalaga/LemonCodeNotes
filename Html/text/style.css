@@ -35,7 +35,11 @@
     border-right: 1px;
     padding-top: 10px;
 }
-
+.static {
+    width: 600px;
+    height: 400px;
+    border: 3px solid pink;
+    }
 .relative {
     position: relative;
     width: 600px;
@@ -49,4 +53,21 @@
     right: 0px;
     width: 300px;
     border: 3px solid red;
+    background-color: gray;
     }
+    .sticky {
+        position: sticky;
+        top: 0px;
+        left: 0px;
+        border: 3px solid red;
+        background: #d5dbdb;
+        }
+
+    .fixed {
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        max-width: 25rem;
+        border: 3px solid red;
+        background-color: yellow;
+        }
