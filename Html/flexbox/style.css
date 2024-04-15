@@ -1,0 +1,50 @@
+:root {
+    --primary: cyan;
+    --secondary: blue;
+    --tertiary: white;
+    }
+
+    .container {
+        display: flex;
+       /* flex-direction: row-reverse;*/
+        /*flex-direction: column;*/
+        /*flex-direction: column-reverse;*/
+        /*flex-wrap: wrap;*/
+        /*flex-wrap: nowrap;*/
+        /* flex -flow = frex-direction and flex-wrap*/
+        flex-flow: row-reverse wrap;
+        justify-content: flex-start;/* alineamiento para el eje horizontal
+        justify-content: flex-end;
+        justify-content: center;
+        justify-content: space-between; elementos pegados a los bordes*/
+        /*justify-content: space-around; /*elementos distribuidos de forma equitativa*/
+        
+       /* height: 300px;
+        align-items:flex-end;/* alineamiento para el eje vertical
+        align-items:flex-start;
+        align-items:center;*/
+        background-color: var(--tertiary);
+        
+    }
+    .box {
+        background-color: var(--primary);
+        color: var(--secondary);
+        font-size: 24px;
+        text-align: center;
+        padding: 20px;
+        margin: 20px;
+        width: 50px;
+    }
+    .box1 {
+        order: 3;
+        }
+        .box2 {
+        order: 9;
+        }
+        .box3 {
+        order: 4;
+        }
+        .box4 {
+        }
+        .box5 {
+        }

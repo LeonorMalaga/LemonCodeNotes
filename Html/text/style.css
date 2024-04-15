@@ -1,6 +1,29 @@
  * {
      box-sizing: border-box;
  }
+ :root {
+    --backColor: violet;
+    --letterColor: white;
+    --hover: blueviolet;
+ }
+ body {
+    font-family: sans-serif;
+    font-size: 16px;
+    }
+ input{
+    accent-color: var(--hover);
+ }
+ button:hover {
+    background-color: var(--hover);
+    }
+    button {
+    background-color: var(--backColor);
+    color: var(--letterColor);
+    border-radius: 50px;
+    border: none;
+    padding: 20px;
+    }
+
 
  .box1 {
      display: inline;
@@ -68,4 +91,3 @@
  .static {
      border: 3px solid pink;
  }
-

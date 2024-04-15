@@ -1,4 +1,5 @@
 .DS_Store
+*.swp
 Git/.DS_Store
 Git/00-visual-studio.pdf
 Git/00-vscode.pdf
