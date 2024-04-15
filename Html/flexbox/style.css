@@ -12,7 +12,7 @@
         /*flex-wrap: wrap;*/
         /*flex-wrap: nowrap;*/
         /* flex -flow = frex-direction and flex-wrap*/
-        flex-flow: row-reverse wrap;
+        flex-flow: column-reverse wrap;
         justify-content: flex-start;/* alineamiento para el eje horizontal
         justify-content: flex-end;
         justify-content: center;
