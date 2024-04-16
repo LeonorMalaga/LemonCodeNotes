@@ -12,15 +12,16 @@
         /*flex-wrap: wrap;*/
         /*flex-wrap: nowrap;*/
         /* flex -flow = frex-direction and flex-wrap*/
-        flex-flow: column-reverse wrap;
-        justify-content: flex-start;/* alineamiento para el eje horizontal
+        flex-flow: row-reverse wrap;
+
+        justify-content: flex-start;/* alignment for horizontal axis
         justify-content: flex-end;
         justify-content: center;
-        justify-content: space-between; elementos pegados a los bordes*/
-        /*justify-content: space-around; /*elementos distribuidos de forma equitativa*/
+        justify-content: space-between; elements glued to the edges*/
+        /*justify-content: space-around; /*elementos distribuidos de forma equitativa**/
         
        /* height: 300px;
-        align-items:flex-end;/* alineamiento para el eje vertical
+        align-items:flex-end;/* alignment for vertical axis
         align-items:flex-start;
         align-items:center;*/
         background-color: var(--tertiary);
